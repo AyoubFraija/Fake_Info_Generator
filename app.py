@@ -8,7 +8,7 @@ import json
 app = Flask(__name__)
 
 # Listes de locales pour chaque continent
-afrique_locales = ['sw', 'yo_NG', 'zu_ZA']  # Afrique (uniquement black people)
+afrique_locales = ['sw', 'yo_NG', 'zu_ZA']  
 europe_locales = ['fr_FR', 'de_DE', 'it_IT', 'es_ES', 'nl_NL', 'pl_PL', 'en_GB', 'en_IE', 'en_CA', 'en_US', 'fr_BE', 'fr_CH', 'fr_QC', 'de_AT', 'de_CH', 'es_AR', 'es_CL', 'es_CO', 'es_MX', 'pt_PT', 'pt_BR', 'ro_RO', 'ru_RU', 'sk_SK', 'sl_SI', 'sq_AL', 'sv_SE', 'ga_IE', 'hu_HU', 'hy_AM', 'lt_LT', 'lv_LV', 'mt_MT', 'nl_BE', 'no_NO', 'uk_UA']
 asie_locales = ['ja_JP', 'zh_CN', 'ko_KR', 'hi_IN', 'th_TH', 'id_ID', 'bn_BD', 'fil_PH', 'he_IL', 'ka_GE', 'ne_NP', 'or_IN', 'ta_IN', 'th', 'tl_PH', 'tr_TR', 'uz_UZ', 'vi_VN', 'zh_TW']
 
