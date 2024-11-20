@@ -60,9 +60,9 @@ def generate_fake_identity():
     return identity_data
 
 # Route pour générer une identité fictive
-@app.route('/generate_id', methods=['GET'])
-def generate_id():
-    identity_data = generate_fake_identity()
+@app.route('/generate_id/<int:num_rows>', methods=['GET'])
+def generate_id(num_rows):
+    identity_data = [generate_fake_identity() for _ in range(num_rows)]
     return jsonify(identity_data)
 
 # Lancer l'application Flask
